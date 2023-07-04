@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  background-repeat: no-repeat;
+}
+.drop-zone {
+    max-width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px dashed #009578;
+    border-radius: 10px;
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+  }
+  
+.bread-crumbs{
+display: flex;
+list-style: none;
+padding-left: 18px;
+}
+.bread-crumbs li {
+font-size: 14px;
+line-height: 19px;
+}
+.view-all{
+    padding-left: 5px;
+    color: #000000;
+    font-weight: 500 !important;
+}
+.bold{
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 500px;
+}
+.bold{
+font-weight: 800;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.designation {
+font-weight: 800;
+font-size: 24px;
+line-height: 70px;
+letter-spacing: -0.24px;
+color: #292828;
+opacity: 1;
+}
+.grey-color {
+color:#6A29DC;
+width: 6px;
+height: 12px;   
+}
+.jr,.wr{
+    opacity: 0.5;
+}
+.share-img{
+    padding-right: 12px;
+}
+.jo-apply {
+    background: transparent linear-gradient(242deg, #9325D2 0%, #6A29DC 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 48px #1C1C1C14;
+    border-radius: 21px;
+    width: 115px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    position: relative; 
+}
+.jo-apply-now {
+    width: 150px;
+    height: 39px;
+    background: transparent linear-gradient(242deg, #9325D2 0%, #6A29DC 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 48px #1C1C1C14;
+    border-radius: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    position: relative; 
+    margin-bottom: 128px;
+
+}
+.btn-div{
+    padding-top: 12px;
+    float: right;
+    padding-right: 0px;
+    /* margin-left: 75px; */
+    padding-left: 106px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.pr-0{
+    padding-right: 0px;
+}
+.no-wrap{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.jo-brief-img{
+    width: 18px;
+    height: 16px;
+}
+.job-req,.what-we-offer h2{
+letter-spacing: -0.21px;
+color: #292828;
+opacity: 1;
+font-weight: 800;
+font-size: 21px;
+/* line-height: 70px; */
+}
+.job-req h2 {
+    letter-spacing: -0.21px;
+    color: #292828;
+    opacity: 1;
+    font-weight: 800;
+    font-size: 21px;
+    /* line-height: 70px;   */
+}
+ul li {
+letter-spacing: -0.18px;
+color: #292828;
+font-size: 18px;
+font-weight: 600;
+}
+.green-color {
+color: #009393;
+font-weight: 800;
+}
+.black-color {
+color: #1C1C1C;
+font-weight: 800;
+}
+.fadish-color {
+color: #CEB5E3;
+font-weight: 800;
+}
+.lt-type{
+    list-style: circle;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+ul {
+    padding-left: 10px;
+}
+.modal-backdrop {
+background: #FEFDFF 0% 0% no-repeat padding-box;
+opacity: 1;
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
+}
+.modal-backdrop.in {
+    opacity: 0.9 !important;
+}
+.modal-content {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 22px 48px #1C1C1C1F;
+border: 1px solid #FFFFFF;
+border-radius: 16px;
+opacity: 1;
+}
+.jo-apply-nav{
+float: right;
+background: #000000 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 48px #1C1C1C14;
+border-radius: 18px;
+opacity: 1;
+}
+.navbar-mobile{
+    background: transparent linear-gradient(255deg, #9325D2 0%, #6A29DC 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 48px #1C1C1C14;
+border-radius: 12px 12px 0px 0px;
+opacity: 1;
+height: 60px;
+}
+.mobile-designation{
+font-size: 18px;
+font-weight: 800;
+letter-spacing: -0.21px;
+color: #292828;
+opacity: 1;
+}
+.mobile-spans span{
+    padding-right: 10px;
+    font: normal normal bold 14px/36px Manrope;
+    letter-spacing: -0.14px;
+}
+.mobile-spans .pr-7{
+    padding-right: 7px;
+}
+.mobile-desig{
+    color: #CEB5E3;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 110px;
+    }
+    .mobile-loc{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50px;
+    }
+    .mobile-yoe{
+    color: #292828;
+    }
+    .copy-link::selection {
+        background-color: transparent;
+      }
+@media (max-width:768px)
+{
+    .bread-crumbs li {
+        font-size: 12px;
+        line-height: 17px;
+        }
+        .bread-crumbs {
+            padding-left: 15px;
+            padding-top: 30px;
+        }
+        .view-all{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 110px;
+        }
+        .designation{
+            font: normal normal 800 21px/70px Manrope;
+            letter-spacing: -0.21px;
+        }
+
+        .job-req h2{
+            font: normal normal 800 18px Manrope;
+letter-spacing: -0.18px;
+        }
+        ul li{
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.14px;
+            color: #292828;
+        } 
+        .reduce-opac li {
+            opacity: 0.5;
+        }
+        ul ul {
+            padding-left: 20px;
+        }
+        .bold{
+            width: 200px;
+        }
+        .jo-apply-nav{
+            margin-right: 16px;
+}
+.mobile-yoe img{
+    position: relative;
+    bottom: 2px;    
+    height: 13px;
+}
+}

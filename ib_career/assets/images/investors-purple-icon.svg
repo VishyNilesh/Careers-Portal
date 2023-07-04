@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_21010" data-name="Group 21010" transform="translate(-29.25 -105.5)">
+    <circle id="Ellipse_4554" data-name="Ellipse 4554" cx="14" cy="14" r="14" transform="translate(29.25 105.5)" fill="#f3e9fb"/>
+    <g id="Investor_grebla_bla" data-name="Investor grebla bla" transform="translate(-1.59 121.248)">
+      <circle id="Ellipse_4560" data-name="Ellipse 4560" cx="2.864" cy="2.864" r="2.864" transform="translate(39.485 -6.163)" fill="#8626d5"/>
+      <rect id="Rectangle_5510" data-name="Rectangle 5510" width="5.869" height="5.869" rx="1" transform="translate(46.083 -9.488)" fill="#8626d5"/>
+      <path id="Path_11268" data-name="Path 11268" d="M303.989,112.774a7.994,7.994,0,0,1-.609.832,5.706,5.706,0,0,1-.665.7,3.587,3.587,0,0,1-1.159.742,3.109,3.109,0,0,1-1.106.19l.227-.1.228-.141a1.468,1.468,0,0,0,.585-.813,1.065,1.065,0,0,0-.1-.931c-.222-.238-.554-.128-.631-.341-.066-.184.159-.332.256-.716a1.426,1.426,0,0,0,0-.665l2.977,1.244Z" transform="translate(-253.334 -117.949)" fill="#8626d5"/>
+      <text id="_" data-name="!" transform="translate(48.42 -5.748)" fill="#fff" font-size="3" font-family="Manrope-Bold, Manrope" font-weight="700"><tspan x="0" y="0">!</tspan></text>
+      <path id="Path_11269" data-name="Path 11269" d="M42.054,307.91h.983a3.465,3.465,0,0,1,3.464,3.464v2.554H38.59v-2.554a3.465,3.465,0,0,1,3.464-3.464Z" transform="translate(0 -307.935)" fill="#8626d5"/>
+    </g>
+  </g>
+</svg>

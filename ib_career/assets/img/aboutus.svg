@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="ABOUT_US_SVG" data-name="ABOUT US SVG" transform="translate(0.408 0.925)">
+    <path id="Path_11259" data-name="Path 11259" d="M13.592-.925a14,14,0,1,1-14,14A14,14,0,0,1,13.592-.925Z" transform="translate(0 0)" fill="#8626d5" fill-rule="evenodd"/>
+    <g id="about_us_svg-2" data-name="about us svg" transform="translate(6.027 -30.373)">
+      <circle id="Ellipse_4561" data-name="Ellipse 4561" cx="2.901" cy="2.901" r="2.901" transform="translate(0.603 37.767)" fill="#eddef9"/>
+      <path id="Path_11277" data-name="Path 11277" d="M1.5,268.05H5.692a1.5,1.5,0,0,1,1.5,1.5V274.1H0v-4.548A1.5,1.5,0,0,1,1.5,268.05Z" transform="translate(0 -224.274)" fill="#eddef9"/>
+      <circle id="Ellipse_4562" data-name="Ellipse 4562" cx="2.901" cy="2.901" r="2.901" transform="translate(8.538 37.746)" fill="#eddef9"/>
+      <path id="Path_11278" data-name="Path 11278" d="M249.733,267.39h4.189a1.5,1.5,0,0,1,1.5,1.5v4.548H248.23v-4.548A1.5,1.5,0,0,1,249.733,267.39Z" transform="translate(-240.295 -223.635)" fill="#eddef9"/>
+      <circle id="Ellipse_4563" data-name="Ellipse 4563" cx="3.405" cy="3.405" r="3.405" transform="translate(4.223 36.37)" fill="#d9bcf2"/>
+      <path id="Path_11279" data-name="Path 11279" d="M111.443,257.01h5.439a1.5,1.5,0,0,1,1.5,1.5v5.6H109.94v-5.6A1.5,1.5,0,0,1,111.443,257.01Z" transform="translate(-106.425 -213.587)" fill="#d9bcf2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,273 @@
+/* 
+Theme Name : IndiaBonds - Career Page   
+Description :JOB Openings,JOB Postings, Careers Page
+Author URI : nilesh.vishwakarma@indiabonds.com
+Version: 1.1
+*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  background-repeat: no-repeat;
+}
+.jo-panel {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #1C1C1C1F;
+    border-radius: 16px;
+    opacity: 1;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1110px;
+    height: 71px;
+    margin-bottom: 30px;
+    margin-left: 189px;
+}
+.jo-title{
+    text-align: left;
+    font: normal normal bold 21px/32px Manrope;
+    letter-spacing: -0.21px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.jo-brief {
+    text-align: left;
+    font: normal normal 600 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #8626D5;
+    opacity: 1;
+    position: relative;
+    left: 80px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100px;
+}
+.jo-loc{
+    text-align: left;
+    font: normal normal bold 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #009393;
+    opacity: 1;
+    position: relative;
+    right: 8px;
+    
+}
+.jo-yoe {
+    text-align: left;
+    font: normal normal 600 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #292828;
+    opacity: 1;
+    right: 64px;
+    /* position: relative;
+    right: 24px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap; */
+}
+.jo-vd-div{
+    width: 115px;
+    margin-left: -30px;
+}
+.jo-yoe-div{
+    width: 110px;
+}
+.jo-vd {
+    border: 1px solid var(--primary-purple);
+    border: 1px solid #8626D5;
+    border-radius: 20px;
+    opacity: 1;
+    width: 115px;
+    height: 38px;
+    font: normal normal 600 14px/22px Manrope;
+    letter-spacing: 0px;
+    color: #8626D5;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+.jo-apply {
+    background: transparent linear-gradient(242deg, #9325D2 0%, #6A29DC 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 48px #1C1C1C14;
+    border-radius: 21px;
+    opacity: 1;
+    width: 115px;
+    height: 38px;
+    font: normal normal 600 14px/22px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    position: relative;
+    left: 30px;
+}
+.jo-apply-mobile {
+    width: 100% !important;
+    height: 38px !important;
+    left: 0px;
+    margin-bottom: 24px;
+}
+.jo-design-img{
+    width: 5% !important;
+}
+.jo-loc-img{
+    position: relative;
+    left: 5px;
+}
+.jo-brief-img{
+    position: relative;
+    bottom: 2px;
+    right: 32px;
+}
+.bread-crumbs{
+    display: flex;
+    list-style: none;
+    padding-top: 21px;
+    }
+    .bread-crumbs li {
+    font-size: 14px;
+    line-height: 19px;
+    }
+.opening-header{
+font-weight: 800;
+font-size: 24px;
+letter-spacing: -0.24px;
+color: #292828;
+opacity: 1;
+}
+.second-fold-load-more{
+    padding-right:20px;
+    text-align:center;
+    
+}
+.second-fold-load-more:hover{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+}
+.second-fold-load-more {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8626D5;
+    border-radius: 27px;
+    opacity: 1;
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.second-fold-view-all-text-new{
+    color:#8626D5 !important;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        letter-spacing: -0.16px;
+        color: #292828;
+        opacity: 1;
+}
+.panel-default{
+    border-color: #FFFFFF;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #1C1C1C1F;
+    border-radius: 12px;
+}
+.row-1 img {
+    height: 24px;
+}
+.row-2{
+    text-align: center;
+}
+.row-2 span {
+    padding-right: 15px;
+    font: normal normal 600 14px/36px Manrope;
+    letter-spacing: -0.14px;
+    opacity: 1;
+}
+.pr-7{
+    padding-right: 7px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.mob-title{
+    font: normal normal bold 18px/32px Manrope;
+    letter-spacing: -0.18px;
+    color: #1C1C1C;
+    opacity: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mobile-desig{
+color: #8626D5;
+opacity: 1;
+}
+.mobile-loc{
+color: #009393;
+}
+.mobile-yoe{
+color: #292828;
+}
+.more-text-header{
+    font: normal normal 800 30px/0px Manrope;
+letter-spacing: -0.3px;
+color: #292828;
+opacity: 1;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+.more-text-para{
+    font-size: 21px;
+    line-height: 70px;
+    letter-spacing: -0.21px;
+    color: #292828;
+    font-weight: 500;
+}
+@media (min-width:1200px)
+{
+.jo-panel-1,.jo-panel-2{
+padding-top: 16px;
+padding-left: 0px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+.pr-0{
+    padding-right: 0px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pl-30{
+    padding-left: 30px;
+}
+}
+    @media (max-width:768px)
+{
+    .bread-crumbs li {
+        font-size: 12px;
+        line-height: 17px;
+        }
+        .bread-crumbs {
+            padding-left: 10px;
+        }
+        .view-all{
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 62px;
+        }
+
+        .more-text-header{
+            font: normal normal 800 21px/35px Manrope;
+            letter-spacing: -0.21px;
+        }
+        .more-text-para{
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: -0.18px;
+        }
+}
+@media (max-width:576px){
+    .row-2{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 300px;
+    }
+}

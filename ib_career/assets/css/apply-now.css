@@ -1,0 +1,234 @@
+
+#fullname,#mobileno,#emailid,#yoe,#np{
+height: 46px;
+background: rgba(127, 17, 224, 0.1);
+border-radius: 4px;
+margin-bottom: 26px;
+margin-right: 46px;
+}
+/* Target the input element */
+#fullname,#mobileno,#emailid,::placeholder {
+    /* Set the desired placeholder styles */
+  color: #CAB2DE;
+  border: none;
+  }
+  #fullname,#mobileno,#emailid,::after {
+    /* Set the desired placeholder styles */
+  color: #000;
+  border: none;
+  }
+  
+  #mobileno,::after{
+    padding-left: 40px;
+  }
+  #yoe,#np,::placeholder {
+    /* Set the desired placeholder styles */
+    color: #000;
+    border: none;
+  }
+option {
+    color: #000;
+}
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+#resume {
+height: 172px;
+border: 0.5px dashed var(--primary-purple);
+background: #F3E8FD 0% 0% no-repeat padding-box;
+border: 0.5px dashed #8626D5;
+border-radius: 4px;
+opacity: 1;
+}
+.text-center-leao{
+    text-align: center;
+    display: block;
+    padding-top: 42px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #CAB2DE;
+    opacity: 1;
+}
+.btns{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 2px;
+opacity: 1;
+width: 68px !important;
+height: 29px !important;
+display: inline-block;
+padding-top: 3px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: -0.12px;
+color: #8626D5;
+opacity: 1;
+}
+.chota-text{
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: -0.12px;
+color: #CEB5E3;
+opacity: 1;
+}
+.modal-wala-header {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 0px;
+color: #1C1C1C;
+opacity: 1;
+padding-left: 14px;
+padding-top: 14px;
+    padding-bottom: 10px;
+}
+.modal-footer,.modal-header{
+    border: none;
+}
+.close {
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+.submit-btn{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #7922C0 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 48px #1C1C1C14;
+    border-radius: 21px;
+    opacity: 1;
+    width: 128px;
+    height: 42px;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    border: none;
+}
+.submit-btn-div{
+    text-align: center;
+}
+.thankyou-header {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    color: #2F2648;
+    opacity: 1;
+}
+.thankyou-para {
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.thankyou-modal{
+ margin-top: 150px;
+} 
+.bread-crumbs-div{
+    margin-top: 40px;
+}
+.share-head{
+    font-size: 21px;
+    color: #8626d5;
+    font-weight: 700;
+}
+.whatsapp-img,.Email-img{
+    width: 30px;
+    padding-right: 10px;
+    }
+.copy-link{
+    padding: 12px 13px 12px 15.4px;
+    border-radius: 4px;
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 328px;
+    outline: none;
+    border: none;
+}
+.share-div{
+    display: flex;
+}
+.copy-status-div{
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+}
+.share-div button{
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+}
+#copy-status{
+    background-color: #000;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.share-modal-dialog{
+    max-width: 400px;
+}
+.mob-prefix{
+    position: absolute !important;
+}
+
+@media (min-width :1200px) {
+    .form-popup {
+        width: 750px;
+        height: 645px;
+    }
+    #resume {
+        width: 689px;
+    }
+
+    #fullname,#mobileno,#emailid,#yoe,#np{
+        width: 328px !important;
+
+    }
+       
+    #shareModal{
+        top: 30% !important;
+    }
+    #shareModal p{
+        font-size: 16px;
+    }
+    .mob-prefix{
+        padding-top: 14px;
+        padding-left: 13px;
+      }
+}
+@media (max-width:992px){
+    .text-center-leao {
+        padding-top: 16px;
+        font-size: 14px;
+    }
+    #shareModal{
+        padding-right: 0px !important;
+        top: 35%;
+    }
+    .mob-prefix{
+        padding-top: 14px;
+        padding-left: 10px;
+      }
+}

@@ -1,0 +1,99 @@
+/* 
+Theme Name : IndiaBonds - Career Page   
+Description :JOB Openings,JOB Postings, Careers Page
+Author URI : nilesh.vishwakarma@indiabonds.com
+Version: 1.1
+*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  background-repeat: no-repeat;
+}
+.jo-panel {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #1C1C1C1F;
+    border-radius: 16px;
+    opacity: 1;
+    height: 66px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.jo-title{
+    text-align: left;
+    font: normal normal bold 21px/32px Manrope;
+    letter-spacing: -0.21px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.jo-brief {
+    text-align: left;
+    font: normal normal 600 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #8626D5;
+    opacity: 1;
+    position: relative;
+    left: 100px;
+}
+.jo-loc{
+    text-align: left;
+    font: normal normal bold 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #009393;
+    opacity: 1;
+    position: relative;
+    right: 8px;
+}
+.jo-yoe {
+    text-align: left;
+    font: normal normal 600 16px/36px Manrope;
+    letter-spacing: -0.16px;
+    color: #292828;
+    opacity: 1;
+    position: relative;
+    right: 24px;
+}
+.jo-vd-div{
+    width: 115px;
+}
+.jo-yoe-div{
+    width: 110px;
+}
+.jo-vd {
+    border: 1px solid var(--primary-purple);
+    border: 1px solid #8626D5;
+    border-radius: 20px;
+    opacity: 1;
+    width: 115px;
+    height: 38px;
+    font: normal normal 600 14px/22px Manrope;
+    letter-spacing: 0px;
+    color: #8626D5;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+.jo-apply {
+    background: transparent linear-gradient(242deg, #9325D2 0%, #6A29DC 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 48px #1C1C1C14;
+    border-radius: 21px;
+    opacity: 1;
+    width: 115px;
+    height: 38px;
+    font: normal normal 600 14px/22px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    position: relative;
+    left: 30px;
+}
+.jo-design-img{
+    width: 5% !important;
+}
+.jo-loc-img{
+    position: relative;
+    left: 5px;
+}
+.jo-brief-img{
+    position: relative;
+    bottom: 2px;
+}
